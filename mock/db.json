@@ -1,0 +1,44 @@
+{
+  "destinos": [
+    {
+      "id": 1,
+      "cidade": "Rio de Janeiro"
+    },
+    {
+      "id": 2,
+      "cidade": "Salvador"
+    },
+    {
+      "id": 3,
+      "cidade": "Piracicaba"
+    }
+  ],
+
+  "viajantes": [
+    {
+      "id": 4,
+      "passageiro": "1"
+    },
+    {
+      "id": 5,
+      "passageiro": "2"
+    },
+    {
+      "id": 6,
+      "passageiro": "3"
+    },
+    {
+      "id": 7,
+      "passageiro": "4"
+    },
+    {
+      "id": 8,
+      "passageiro": "5"
+    },
+    {
+      "id": 9,
+      "passageiro": "6"
+    }
+
+  ]
+}
