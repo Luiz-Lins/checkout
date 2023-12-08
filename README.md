@@ -45,13 +45,6 @@ successful return
 
 ```
 
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
 ### Mock de Dados (in another terminal)
 
 ```sh
