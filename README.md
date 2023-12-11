@@ -48,5 +48,7 @@ successful return
 ### Mock de Dados (in another terminal)
 
 ```sh
+npm install -g json-server
+
 npm run mock
 ```
