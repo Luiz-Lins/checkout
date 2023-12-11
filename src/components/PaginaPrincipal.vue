@@ -1,14 +1,36 @@
 <template>
   <div class="row justify-content-around">
     <div class="col-12">
+      <div class="input-group mb-3">
+        <label class="input-group-text" for="inputGroupSelect01">Adultos</label>
+        <select class="form-control" id="inputGroupSelect01">
+          <option selected>Seleciona a quantidade</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <div class="input-group mb-3">
+        <label class="input-group-text" for="inputGroupSelect01">Crianças</label>
+        <select class="form-select" id="inputGroupSelect01">
+          <option selected>Seleciona a quantidade</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
       <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-        <option selected>Escolha um destino</option>
+        <option selected>Selecione a origem</option>
         <option v-for="destino in destinos" :value="destino.id" :key="destino.id">
           {{ destino.cidade }}
         </option>
       </select>
       <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-        <option selected>Selecione a origem</option>
+        <option selected>Escolha um destino</option>
         <option v-for="destino in destinos" :value="destino.id" :key="destino.id">
           {{ destino.cidade }}
         </option>
@@ -36,28 +58,6 @@
         <span class="input-group-text" id="basic-addon2">@example.com</span>
       </div>
 
-      <div class="input-group mb-3">
-        <label class="input-group-text" for="inputGroupSelect01">Adultos</label>
-        <select class="form-select" id="inputGroupSelect01">
-          <option selected>Seleciona a quantidade</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-        </select>
-      </div>
-      <div class="input-group mb-3">
-        <label class="input-group-text" for="inputGroupSelect01">Crianças</label>
-        <select class="form-select" id="inputGroupSelect01">
-          <option selected>Seleciona a quantidade</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-        </select>
-      </div>
       <div class="form-check form-switch">
         <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
         <label class="form-check-label" for="flexSwitchCheckDefault">Ida e volta</label>
